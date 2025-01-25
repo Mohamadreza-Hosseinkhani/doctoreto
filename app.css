@@ -1,0 +1,63 @@
+@import url("./src/styles/fonts.css"); /* Import font styles */
+@import url("./src/styles/reset.css"); /* Import reset styles */
+@import url("./src/styles/reuseable.css"); /* Import reusable styles */
+@import url("./src/styles/variable.css"); /* Import variable styles */
+
+/*!========== IMPORT SECTIONS ==========*/
+@import url("src/styles/sections/header.css");
+@import url("src/styles/sections/hero.css");
+@import url("src/styles/sections/specialties.css");
+@import url("src/styles/sections/citys.css");
+@import url("src/styles/sections/disease.css");
+@import url("src/styles/sections/best-doctor.css");
+@import url("src/styles/sections/online-consultation.css");
+@import url("src/styles/sections/medical-centers.css");
+@import url("src/styles/sections/top-clinics.css");
+@import url("src/styles/sections/users-view.css");
+@import url("src/styles/sections/latest-blog.css");
+@import url("src/styles/sections/newest-doctors.css");
+@import url("src/styles/sections/footer.css");
+
+
+/*!========== BASE STYLES ==========*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazirmatn FD;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--gray-100);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+section.hero,
+section.specialties,
+section.citys,
+section.disease,
+section.bets-doctor,
+section.online-consultation,
+section.medical-center,
+section.top-clinics,
+section.latest-blog,
+section.newest-doctors {
+  max-width: 1128px;
+  margin: 0 auto;
+}
