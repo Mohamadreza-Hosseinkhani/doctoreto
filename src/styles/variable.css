@@ -3,11 +3,12 @@
   --blue-100: #ecf3ff;
   --blue-200: #d9e7ff;
   --blue-300: #f1f6ff;
-  --blue-400: #4186ff;
-  --blue-500: #4187ff;
-  --blue-600: #346ed1;
-  --blue-700: #3f62d7;
-  --blue-800: #467cd5;
+  --blue-400: #679fff;
+  --blue-500: #4186ff;
+  --blue-600: #4187ff;
+  --blue-700: #346ed1;
+  --blue-800: #3f62d7;
+  --blue-900: #467cd5;
 
   --gray-100: #f9fafb;
   --gray-200: #f4f5f6;
@@ -67,6 +68,7 @@
   --box-shadow-2: #0d22460a 0 1px 2px 0; /** ====================================== user-view section */
   --box-shadow-3: #0d224605 0 20px 12px -2px, #0d22460a 0 29px 62px -4px; /**==== citys component */
   --box-shadow-4: #e0e0e033 0 1px 10px 1px; /** =================================== medical-center section */
+  --box-shadow-5: #bdbdbd80 0px 1px 4px 0px; /** ====================================== heder */
   --box-shadow-hover-1: #0d224605 0 8px 35px -4px, #0d22460f 0 20px 24px -4px; /** most component hover */
   --box-shadow-hover-2: #e0e0e0cc 0px 2px 30px 8px; /** =========================== chevron button hover */
 
