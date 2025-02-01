@@ -49,3 +49,34 @@ export const swiperLatestBlog = new Swiper(".swiper-latest", {
     },
   },
 });
+export const swiperLatestBlogAll = new Swiper(".swiper__latestblog--all", {
+  cssMode: true,
+  mousewheel: true,
+  keyboard: true,
+  loop:true,
+  navigation: {
+    nextEl: ".nextBtn__latestblogAll",
+    prevEl: ".prevBtn__latestblogAll",
+  },
+  pagination: {
+    el: ".pagination__latestblogAll",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 10,
+    },
+    1440:{
+      slidesPerView: 4,
+      spaceBetween: 10,
+    }
+  },
+});
