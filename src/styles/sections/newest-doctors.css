@@ -16,19 +16,16 @@
   justify-content: center;
   align-items: center;
 }
-
-/* .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
-
-.nextBtn__newestdoctor,
-.prevBtn__newestdoctor {
-  width: 24px !important;
-  height: 24px !important;
+.mySwiper .nextBtn__newestdoctor,
+.mySwiper .prevBtn__newestdoctor {
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+  border-radius: 50%;
+  color: var(--blue-800);
+  background-color: white;
+  box-shadow: var(--box-shadow-hover-2);
+  opacity: 1;
 }
 .swiper-slide {
   text-align: center;
