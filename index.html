@@ -6,25 +6,688 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="author" content="Mohamadreza Hosseinkhani | Maryam Rezayee | Benyamin Ranjbar">
+    <meta
+      name="author"
+      content="Mohamadreza Hosseinkhani | Maryam Rezayee | Benyamin Ranjbar"
+    />
 
-    <meta name="description" content="دکترتو ساده‌ترین راه نوبت دهی اینترنتی و مشاوره آنلاین و تلفنی پزشکی است. با دکترتو از بهترین متخصص ها و فوق تخصص ها اینترنتی نوبت مطب یا مشاوره تلفنی پزشکی و نوبت آنلاین بگیرید و سوالات پزشکی خود از دکتر مورد نظرتان را بپرسید. همچنین می توانید از طریق سایت دکترتو آدرس و تلفن مطب پزشک، روانپزشک، درمانگاه، بیمارستان و مراکز درمانی را مشاهده کنید">
+    <meta
+      name="description"
+      content="دکترتو ساده‌ترین راه نوبت دهی اینترنتی و مشاوره آنلاین و تلفنی پزشکی است. با دکترتو از بهترین متخصص ها و فوق تخصص ها اینترنتی نوبت مطب یا مشاوره تلفنی پزشکی و نوبت آنلاین بگیرید و سوالات پزشکی خود از دکتر مورد نظرتان را بپرسید. همچنین می توانید از طریق سایت دکترتو آدرس و تلفن مطب پزشک، روانپزشک، درمانگاه، بیمارستان و مراکز درمانی را مشاهده کنید"
+    />
 
     <!-- BROWSER THEME COLOR ON MOBILE -->
     <meta name="theme-color" content="#ffffff" />
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./app.css" />
 
     <title>دکترتو: نوبت دهی اینترنتی، مشاوره تلفنی و آنلاین پزشکان ایران</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
-
     <!-- با ذکر بسم الله کارو شرع کنید 😂 -->
+    <!--بسم الله قاسم الجبارین شروع :)-->
+    <!-- latest blog  -->
+    <section class="py-4">
+      <div class="container">
+        <h3 class="main__title py-3">آخرین مطالب مجله‌ سلامت دکترِتو</h3>
+        <div class="row">
+          <nav>
+            <div class="tab__latestblog mb-3" id="nav-tab" role="tablist">
+              <div class="swiper swiper-latest">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link active"
+                      id="nav-home-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-home"
+                      aria-selected="true"
+                    >
+                      همه مقالات
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-profile-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-profile"
+                      aria-selected="false"
+                    >
+                      سلامت روان
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      تغذیه و رژیم
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      سلامت جنسی
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      مادر و کودک
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      زیبایی
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      پوست و مو
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      بیماری
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      دارو
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button
+                      class="nav-link"
+                      id="nav-contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#nav-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="nav-contact"
+                      aria-selected="false"
+                    >
+                      خبر
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="p-3" id="nav-tabContent">
+            <div
+              class="tab-pane fade active show"
+              id="nav-home"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+            >
+              <p>اوللللللللللللللللللللللللللللللللل</p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-profile"
+              role="tabpanel"
+              aria-labelledby="nav-profile-tab"
+            >
+              <p>
+                <strong
+                  >This is some placeholder content the Profile tab's associated
+                  content.</strong
+                >
+                Clicking another tab will toggle the visibility of this one for
+                the next. The tab JavaScript swaps classes to control the
+                content visibility and styling. You can use it with tabs, pills,
+                and any other <code>.nav</code>-powered navigation.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-contact"
+              role="tabpanel"
+              aria-labelledby="nav-contact-tab"
+            >
+              <p>
+                <strong
+                  >This is some placeholder content the Contact tab's associated
+                  content.</strong
+                >
+                Clicking another tab will toggle the visibility of this one for
+                the next. The tab JavaScript swaps classes to control the
+                content visibility and styling. You can use it with tabs, pills,
+                and any other <code>.nav</code>-powered navigation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- newest doctors  -->
+    <section class="py-4">
+      <div class="container">
+        <h3 class="main__title py-3">جدیدترین پزشکان دکترتو</h3>
+        <div class="row">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card__newestdoctor p-4">
+                  <img
+                    class="card__img"
+                    src="/src/assets/user-profile-img/1.jpg"
+                    alt="دکتر مریم رضایی"
+                  />
+                  <div class="flex flex-col">
+                    <p class="doctor__name">دکتر زهره معیری</p>
+                    <div class="div__speciality">
+                      <p class="doctor__speciality mt-0">پزشک عمومی</p>
+                      <img
+                        width="16"
+                        height="16"
+                        src="/src/assets/location.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="doctor__location">تهران</p>
+                  </div>
+                  <button class="btn__newestDoctor">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    نوبت بگیرید
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__newestdoctor p-4">
+                  <img
+                    class="card__img"
+                    src="/src/assets/user-profile-img/2.jpg"
+                    alt="دکتر مریم رضایی"
+                  />
+                  <div class="flex flex-col">
+                    <p class="doctor__name">دکتر زهره معیری</p>
+                    <div class="div__speciality">
+                      <p class="doctor__speciality mt-0">پزشک عمومی</p>
+                      <img
+                        width="16"
+                        height="16"
+                        src="/src/assets/location.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="doctor__location">تهران</p>
+                  </div>
+                  <button class="btn__newestDoctor">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    نوبت بگیرید
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__newestdoctor p-4">
+                  <img
+                    class="card__img"
+                    src="/src/assets/user-profile-img/3.jpg"
+                    alt="دکتر مریم
+                  رضایی"
+                  />
+                  <div class="flex">
+                    <p class="doctor__name">دکتر زهره معیری</p>
+                    <div class="div__speciality">
+                      <p class="doctor__speciality mt-0">پزشک عمومی</p>
+                      <img
+                        width="16"
+                        height="16"
+                        src="/src/assets/location.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="doctor__location">تهران</p>
+                  </div>
+                  <button class="btn__newestDoctor">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    نوبت بگیرید
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__newestdoctor p-4">
+                  <img
+                    class="card__img"
+                    src="/src/assets/user-profile-img/4.jpg"
+                    alt="دکتر مریم رضایی"
+                  />
+                  <div class="flex">
+                    <p class="doctor__name">دکتر زهره معیری</p>
+                    <div class="div__speciality">
+                      <p class="doctor__speciality mt-0">پزشک عمومی</p>
+                      <img
+                        width="16"
+                        height="16"
+                        src="/src/assets/location.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="doctor__location">تهران</p>
+                  </div>
+                  <button class="btn__newestDoctor">
+                    <i class="fa flex-col fa-angle-left" aria-hidden="true"></i>
+                    نوبت بگیرید
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__newestdoctor p-4">
+                  <img
+                    class="card__img"
+                    src="/src/assets/user-profile-img/5.jpg"
+                    alt="دکتر مریم رضایی"
+                  />
+                  <div class="flex">
+                    <p class="doctor__name">دکتر زهره معیری</p>
+                    <div class="div__speciality">
+                      <p class="doctor__speciality mt-0">پزشک عمومی</p>
+                      <img
+                        width="16"
+                        height="16"
+                        src="/src/assets/location.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="doctor__location">تهران</p>
+                  </div>
+                  <button class="btn__newestDoctor">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    نوبت بگیرید
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card__newestdoctor p-4">
+                  <img
+                    class="card__img"
+                    src="/src/assets/user-profile-img/4.jpg"
+                    alt="دکتر مریم رضایی"
+                  />
+                  <div class="flex">
+                    <p class="doctor__name">دکتر زهره معیری</p>
+                    <div class="div__speciality">
+                      <p class="doctor__speciality mt-0">پزشک عمومی</p>
+                      <img
+                        width="16"
+                        height="16"
+                        src="/src/assets/location.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="doctor__location">تهران</p>
+                  </div>
+                  <button class="btn__newestDoctor">
+                    <i class="fa flex-col fa-angle-left" aria-hidden="true"></i>
+                    نوبت بگیرید
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next nextBtn__newestdoctor"></div>
+            <div class="swiper-button-prev prevBtn__newestdoctor"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer footer--fixed">
+      <div class="footer__container container pb-0 p-4 md:p-5">
+        <div class="footer__row row p-2">
+          <div class="footer__column footer__column--one col-6 col-md-2">
+            <ul class="footer__list">
+              <li class="footer__item--title mb-4">شهر های دکترتو</li>
+              <li class="footer__item">دکترتو تهران</li>
+              <li class="footer__item">دکترتو اصفهان</li>
+              <li class="footer__item">دکترتو شیراز</li>
+              <li class="footer__item">دکترتو بوشهر</li>
+              <li class="footer__item">دکترتو مشهد</li>
+              <li class="footer__item">دکترتو بندرعباس</li>
+              <li class="footer__item">دکترتو اهواز</li>
+              <li class="footer__item">دکترتو کرج</li>
+              <li class="footer__item">دکترتو کرمان</li>
+              <li class="footer__item">دکترتو تبریز</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column--two col-6 col-md-2">
+            <ul class="footer__list">
+              <li class="footer__item--title mb-4">درباره دکترتو</li>
+              <li class="footer__item">مشاوره پزشکی آنلاین</li>
+              <li class="footer__item">درباره‌ی ما</li>
+              <li class="footer__item">سوالات متداول</li>
+              <li class="footer__item">ثبت‌نام پزشکان</li>
+              <li class="footer__item">قوانین و مقررات</li>
+              <li class="footer__item">قوانین ثبت نظر</li>
+              <li class="footer__item">تماس با ما</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column--three col-12 col-md-2">
+            <ul class="footer__list">
+              <li class="footer__item--title mb-4">در کنار شما</li>
+              <li class="footer__item">تخصص‌های پزشکی</li>
+              <li class="footer__item">دکترتو کلینیک</li>
+              <li class="footer__item">مجله سلامت</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column--four col-md-3">
+            <img
+              width="162px"
+              height="30px"
+              src="/src/assets/footer-img/logo-with-title.webp"
+              alt="doctoreto"
+              class="table-mx-auto"
+            />
+            <p class="column--four--text my-3">با ما در ارتباط باشید</p>
+            <address>
+              <a class="footer__link" href="mailto:support@doctoreto.com"
+                >support@doctoreto.com</a
+              >
+            </address>
+          </div>
+          <div class="footer__column footer__column--five pt-0 p-5 col-md-3">
+            <p class="column--four--text my-3">
+              اپلیکیشن دکترتو را دریافت کنید
+            </p>
+            <div class="card__footer--social my-3">
+              <img
+                width="16"
+                height="16"
+                src="/src/assets/footer-img/doctoreto.svg"
+                alt=""
+              />
+              <p>دانلود مستقیم نسخه اندروید</p>
+            </div>
+            <div class="card__footer--social my-3">
+              <img
+                width="16"
+                height="16"
+                src="/src/assets/footer-img/doctoreto.svg"
+                alt=""
+              />
+              <p>دانلود از کافه بازار</p>
+            </div>
+            <p class="column--four--text my-3">دکترتو در شبکه‌های اجتماعی</p>
+            <div class="card__footer--insta flex-row-center my-3">
+              <img
+                width="20"
+                height="20"
+                src="/src/assets/footer-img/insta.svg"
+                alt=""
+              />
+              <p>اینستاگرام دکترتو</p>
+            </div>
+            <div class="flex-row-between">
+              <a href="#">
+                <img
+                  width="20"
+                  height="20"
+                  src="/src/assets/footer-img/telegram.svg"
+                  alt="تلگرام دکترتو"
+                />
+              </a>
+              <a href="#">
+                <img
+                  width="20"
+                  height="20"
+                  src="/src/assets/footer-img/linkedin.svg"
+                  alt="لینکدین دکترتو"
+                />
+              </a>
+              <a href="#">
+                <img
+                  width="20"
+                  height="20"
+                  src="/src/assets/footer-img/aparat.svg"
+                  alt="آپارات دکترتو"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="footer__row row pb-5 p-2">
+          <div class="col-md-6">
+            <h6 class="row--two--text">
+              دکترتو: نوبت دهی اینترنتی و مشاوره آنلاین پزشکان ایران
+            </h6>
+            <p class="footer__desc">
+              دکترتو ساده‌ترین راه نوبت‌ دهی اینترنتی و مشاوره آنلاین پزشکان
+              ایران است. پزشکان به کمک دکترتو می‌توانند امکان نوبت دهی اینترنتی
+              و مشاوره تلفنی خود را فعال کنند. به این ترتیب بیمار برای نوبت گیری
+              از دکتر نیاز به روش‌های سنتی مثل تلفن زدن یا مراجعه حضوری ندارد.
+              برای گرفتن نوبت ویزیت حضوری یا تلفنی از بهترین پزشکان ایران کافی
+              است بهسایت نوبت دهی اینترنتیدکترتو یا اپلیکیشن دکترتو مراجعه کنید
+              و از لیست پزشکان متخصص و فوق تخصص دکترتو در زمان مورد نظر خود نوبت
+              ویزیت بگیرید.
+              <button class="btn__footer--readmore">مشاهده بیشتر</button>
+              <span class="moretext">
+                در حال حاضر دکتر تو در شهرهای مختلف فعال است و نوبت گیری
+                اینترنتی بسیاری از بهترین پزشکان تهران ، بهترین پزشکان شیراز ،
+                بهترین پزشکان بوشهر و بهترین پزشکان بندر عباس از این طریق فعال
+                شده است. شما می‌توانید از دکتر تو متخصص زنان زایمان و نازایی ،
+                متخصص ارتوپدی ، متخصص گوش حلق و بینی ، متخصص اطفال و کودکان ،
+                متخصص روانپزشکی ، فوق تخصص ریه ، فوق تخصص روماتولوژی ، متخصص
+                جراحی کلیه، مجاری ادراری و تناسلی (اورولوژی) ، فوق تخصص غدد ،
+                فوق تخصص گوارش و کبد ، متخصص جراحی عمومی ، متخصص داخلی ، متخصص
+                مغز و اعصاب (نورولوژی) و متخصص چشم پزشکی مورد نظر خود را بیابید
+                و نوبت بگیرید. علاوه بر نوبت دهی آنلاین پزشک ، اطلاعات دکترها
+                مثل بیوگرافی دکتر، آدرس مطب دکتر و تلفن مطب دکتر هم در پروفایل
+                هر پزشک قرار گرفته است
+                <button class="btn__footer--less">بستن</button>
+              </span>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="row justify-content-center">
+              <div class="col-4 col-md-2">
+                <div class="p-2 footer__card--style">
+                  <img
+                    width="78"
+                    height="78"
+                    src="/src/assets/footer-img/enamad-logo.png"
+                    alt="اینماد"
+                  />
+                </div>
+              </div>
+              <div class="col-4 col-md-2">
+                <div class="p-2 footer__card--style">
+                  <img
+                    width="78"
+                    height="78"
+                    src="./src/assets/footer-img/etehadieh.jpg"
+                    alt="نماد ساماندهی پایگاه اینترنتی"
+                  />
+                </div>
+              </div>
+              <div class="col-4 col-md-2">
+                <div class="p-2 footer__card--style">
+                  <img
+                    width="78"
+                    height="78"
+                    src="/src/assets/footer-img/neshan-meli.jpg"
+                    alt="عضو اتحادیه کشوری کسب وکارهای مجازی"
+                  />
+                </div>
+              </div>
+              <div class="col-4 col-md-2">
+                <div class="p-2 footer__card--style">
+                  <img
+                    width="78"
+                    height="78"
+                    src="/src/assets/footer-img/saman-kish.jpg"
+                    alt="درگاه پرداخت الکترونیک سامان کیش"
+                  />
+                </div>
+              </div>
+              <div class="col-4 col-md-2">
+                <div class="p-2 footer__card--style">
+                  <img
+                    width="78"
+                    height="78"
+                    src="/src/assets/footer-img/beh-pardakht.jpg"
+                    alt="درگاه پرداخت الکترونیک به پرداخت ملت"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mb-0" />
+      </div>
+      <div class="footer__copyRight pt-3" style="background-color: #eef1f5">
+        <div class="footer__row row">
+          <div class="col-12 text-center">
+            <p class="copyRight__text">
+              کلیه‌ی حقوق این وبسایت متعلق به شرکت دانش بنیان فن‌آوری اطلاعات
+              نوین آسان تِک مانا است.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var swiperLatestBlog = new Swiper(".swiper-latest", {
+        cssMode: true,
+        mousewheel: true,
+        keyboard: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 10,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
+    <script src="/src/js/footer.js"></script>
   </body>
 </html>

@@ -1,0 +1,24 @@
+.tab__latestblog {
+  /* display: flex;
+  gap: 20px; */
+}
+.tab__latestblog button {
+  font-family: Vazirmatn FD;
+  border: 1px solid var(--light-blue);
+  background-color: white;
+  color: var(--blue-300);
+  border-radius: 32px;
+  padding: 4px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  display: inline-block;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.tab__latestblog button:hover {
+  background-color: var(--blue-300);
+  color: white;
+  transition: all ease-out 0.5s;
+}

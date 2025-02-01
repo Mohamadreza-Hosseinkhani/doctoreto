@@ -1,5 +1,6 @@
 :root {
   /**========== COLORS ==========*/
+  --light-blue:#8DB7FF;
   --blue-100: #d9e7ff;
   --blue-200: #667085;
   --blue-300: #4187ff;
@@ -7,7 +8,8 @@
   --blue-500: #346ed1;
   --blue-600: #3f62d7;
   --blue-700: #467cd5;
-
+  
+  --gray-50:#CED4DA;
   --gray-100: #f9fafb;
   --gray-200: #f4f5f6;
   --gray-300: #f1f6ff;

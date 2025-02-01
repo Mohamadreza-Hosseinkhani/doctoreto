@@ -23,7 +23,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.table-mx-auto {
+  display: table;
+  margin: 0 auto;
+}
 .grid {
   display: grid;
 }
@@ -44,4 +47,14 @@
 .section-intro__view-more {
   font-size: var(--text-md);
   color: var(--blue-300);
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  color: inherit;
+}
+p{
+  margin-bottom: 0px !important;
 }

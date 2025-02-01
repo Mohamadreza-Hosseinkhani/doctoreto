@@ -1,0 +1,122 @@
+/* swiper style */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
+.nextBtn__newestdoctor,
+.prevBtn__newestdoctor {
+  width: 24px !important;
+  height: 24px !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.swiper-wrapper {
+  padding-bottom: 2rem;
+}
+.card__img {
+  width: 92px;
+  height: 92px;
+  display: table;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: 4px solid #ecf2ff;
+}
+.card__newestdoctor {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(234, 236, 240);
+  justify-content: space-between;
+  height: 308px;
+  box-shadow: var(--box-shadow-4);
+}
+.main__title {
+  font-weight: 700;
+  color: var(--black-500);
+  font-size: 24;
+  line-height: 36px;
+}
+.btn__newestDoctor {
+  background-color: transparent;
+  outline: none !important;
+  padding: 0.3rem 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  border: 1px solid rgb(65, 135, 255);
+  color: rgb(65, 135, 255);
+}
+.div__speciality {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5px;
+}
+.doctor__name {
+  color: rgb(29, 41, 57);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.doctor__speciality {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 80%;
+  color: rgb(102, 112, 133);
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.doctor__location {
+  gap: 4px;
+  display: flex;
+  color: rgb(102, 112, 133);
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 400;
+  line-height: 22px;
+  align-items: center;
+  justify-content: center;
+}
