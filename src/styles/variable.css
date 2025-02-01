@@ -1,26 +1,39 @@
 :root {
   /**========== COLORS ==========*/
   --light-blue:#8DB7FF;
-  --blue-100: #d9e7ff;
-  --blue-200: #667085;
-  --blue-300: #4187ff;
-  --blue-400: #4186ff;
-  --blue-500: #346ed1;
-  --blue-600: #3f62d7;
-  --blue-700: #467cd5;
+  --blue-100: #ecf3ff;
+  --blue-200: #d9e7ff;
+  --blue-300: #f1f6ff;
+  --blue-400: #679fff;
+  --blue-500: #4186ff;
+  --blue-600: #4187ff;
+  --blue-700: #346ed1;
+  --blue-800: #3f62d7;
+  --blue-900: #467cd5;
   
   --gray-50:#CED4DA;
   --gray-100: #f9fafb;
   --gray-200: #f4f5f6;
-  --gray-300: #f1f6ff;
-  --gray-400: #eef1f5;
-  --gray-500: #98a2b3;
-  --gray-600: #7e91a5;
-  --gray-700: #6c757d;
+  --gray-300: #f5faff;
+  --gray-400: #f8f9fa;
+  --gray-500: #eef1f5;
+  --gray-600: #98a2b3;
+  --gray-700: #7e91a5;
+  --gray-800: #6c757d;
+  --gray-900: #667085;
 
-  --black-300: #394959;
-  --black-400: #1d2939;
-  --black-500: #101828;
+  --dark-100: #394959;
+  --dark-200: #1d2939;
+  --dark-300: #101828;
+
+  --border-color-1: #f2f4f7; /* top clinicks border */
+  --border-color-2: #eaecf0; /* main border => hero, specialties, citys, disease, and... */
+  --border-color-3: #ecf2ff; /* user profile border => newest doctors section */
+  --border-color-4: #8db7ff; /* button border */
+  --border-color-5: #8d949f; /* footer border */
+  --border-color-6: #ced4da; /* footer border */
+
+  --white: #ffffff;
 
   /**========== SPACES ==========*/
   --space-xs: 0.5rem;
@@ -53,15 +66,18 @@
   --rounded-full: 100%;
 
   /**========== BOX SHADOW ==========*/
-  --box-shadow-1: #0d224605 0 1px 6px 0, #0d224605 0 4px 18px 0; /** ============ most section */
+  --box-shadow-1: #0d224605 0 1px 6px 0, #0d224605 0 4px 18px 0; /** ============ most component */
   --box-shadow-2: #0d22460a 0 1px 2px 0; /** ====================================== user-view section */
-  --box-shadow-3: #0d224605 0 20px 12px -2px, #0d22460a 0 29px 62px -4px;
-  --box-shadow-4: #e0e0e033 0 1px 10px 1px; /** ============================== medical-center section */
-  --box-shadow-hover: #0d224605 0 8px 35px -4px, #0d22460f 0 20px 24px -4px;
+  --box-shadow-3: #0d224605 0 20px 12px -2px, #0d22460a 0 29px 62px -4px; /**==== citys component */
+  --box-shadow-4: #e0e0e033 0 1px 10px 1px; /** =================================== medical-center section */
+  --box-shadow-5: #bdbdbd80 0px 1px 4px 0px; /** ====================================== heder */
+  --box-shadow-hover-1: #0d224605 0 8px 35px -4px, #0d22460f 0 20px 24px -4px; /** most component hover */
+  --box-shadow-hover-2: #e0e0e0cc 0px 2px 30px 8px; /** =========================== chevron button hover */
 
   /**========== BREAKE POINTS ==========*/
   --breake-point-sm: 576px;
   --breake-point-md: 768px;
   --breake-point-lg: 992px;
   --breake-point-xl: 1200px;
+  --breake-point-2xl: 1400px;
 }

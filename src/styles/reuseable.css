@@ -7,7 +7,7 @@
 .flex-row-between {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .flex-col-center {
@@ -31,7 +31,7 @@
   display: grid;
 }
 
-/**========== section intro ==========*/
+/**========== SECTION INTRO ==========*/
 .section-intro {
   display: flex;
   align-items: center;
@@ -47,6 +47,13 @@
 .section-intro__view-more {
   font-size: var(--text-md);
   color: var(--blue-300);
+}
+
+/**========== LOGO ==========*/
+.logo {
+  max-width: 162px;
+  max-height: 33px;
+  display: block;
 }
 a,
 a:hover,

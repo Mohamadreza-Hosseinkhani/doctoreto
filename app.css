@@ -18,7 +18,6 @@
 @import url("src/styles/sections/newest-doctors.css");
 @import url("src/styles/sections/footer.css");
 
-
 /*!========== BASE STYLES ==========*/
 * {
   margin: 0;
@@ -28,7 +27,6 @@
 }
 
 :root {
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -48,16 +46,19 @@ img {
   height: auto;
 }
 
-section.hero,
-section.specialties,
-section.citys,
-section.disease,
-section.bets-doctor,
-section.online-consultation,
-section.medical-center,
-section.top-clinics,
-section.latest-blog,
-section.newest-doctors {
+section:is(
+    .hero,
+    .specialties,
+    .citys,
+    .disease,
+    .bets-doctor,
+    .online-consultation,
+    .medical-center,
+    .top-clinics,
+    .latest-blog,
+    .newest-doctors
+  ) {
   max-width: 1128px;
   margin: 0 auto;
+  padding: 0 var(--space-md);
 }
