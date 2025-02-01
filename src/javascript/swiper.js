@@ -1,6 +1,51 @@
 import Swiper from "swiper";
-import "swiper/css";
-
-// config your swiper here and export it. for example: specialties , disease, user view, etc... sections
-export const specialties = new Swiper();
-export const disease = new Swiper();
+import { Navigation, Pagination } from "swiper/modules";
+import "../../node_modules/swiper/swiper.min.css";
+import "../../node_modules/swiper/modules/navigation.min.css";
+import "../../node_modules/swiper/modules/pagination.min.css";
+export const swiper = new Swiper(".mySwiper", {
+  cssMode: true,
+  navigation: {
+    nextEl: ".nextBtn__newestdoctor",
+    prevEl: ".prevBtn__newestdoctor",
+  },
+  pagination: {
+    el: ".pagination__newestdoctor",
+  },
+  mousewheel: true,
+  keyboard: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
+  },
+  modules: [Navigation, Pagination],
+});
+export const swiperLatestBlog = new Swiper(".swiper-latest", {
+  cssMode: true,
+  mousewheel: true,
+  keyboard: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 10,
+      spaceBetween: 10,
+    },
+  },
+});
