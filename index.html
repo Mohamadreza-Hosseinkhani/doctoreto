@@ -23,10 +23,88 @@
   </head>
 
   <body>
-
     <!--==================== MAIN ====================-->
     <main>
       
+      <!--==================== HERO ====================-->
+      <div class="hero-bg">
+        <section class="hero">
+          <h1 class="hero__heading"><span>دکتـــرِتو</span> <br> نوبت‌دهی اینترنتی و مشاوره آنلاین پزشکان ایران</h1>
+  
+          <!--==================== SEARCH BOX ====================-->
+          <form method="get" class="hero__form">
+            <input type="search" name="search" placeholder="نام پزشک، تخصص، بیماری و ...." class="hero__form__input" />
+  
+            <button type="menu" class="hero__form__btn flex-row-center">
+              <span class="hero__form__btn__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"><path fill-rule="evenodd" d="M4.127 7.713c.744-3.271 3.53-4.923 6.377-4.921s5.63 1.658 6.37 4.93c.882 3.89-1.53 7.257-3.806 9.444h-.001a3.703 3.703 0 0 1-5.14 0c-2.27-2.186-4.68-5.561-3.8-9.453m6.377-6.171c3.318.002 6.697 1.958 7.59 5.903 1.035 4.575-1.82 8.374-4.16 10.622a4.953 4.953 0 0 1-6.874 0h-.001c-2.332-2.248-5.187-6.056-4.151-10.63.898-3.946 4.28-5.898 7.596-5.895m-1.978 7.55a1.975 1.975 0 1 1 3.95 0 1.975 1.975 0 0 1-3.95 0M10.5 5.865a3.225 3.225 0 1 0 0 6.45 3.225 3.225 0 0 0 0-6.45" clip-rule="evenodd"></path></svg></span>
+              <span class="hero__form__btn__text">انتخاب شهر</span>
+            </button>
+  
+            <button type="submit" class="hero__form__search-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#b5c1d4" viewBox="0 0 24 25"><path d="M2.75 12a8.75 8.75 0 1 1 17.5 0 8.75 8.75 0 0 1-17.5 0M11.5 1.75C5.84 1.75 1.25 6.34 1.25 12S5.84 22.25 11.5 22.25 21.75 17.66 21.75 12 17.16 1.75 11.5 1.75m9.03 18.22a.75.75 0 1 0-1.06 1.06l2 2a.75.75 0 1 0 1.06-1.06z" clip-rule="evenodd"></path></svg>
+            </button>
+          </form>
+  
+          <!--==================== BRIEF INFO ====================-->
+          <div class="hero__brief-info flex-row-center">
+            <div class="hero__brief-info__item">
+              <span class="hero__brief-info__item__value">46,000+</span>
+              <br>
+              <span class="hero__brief-info__item__label">پزشک</span>
+            </div>
+        
+            <div class="hero__brief-info__item">
+              <span class="hero__brief-info__item__value">14,000,000+</span>
+              <br>
+              <span class="hero__brief-info__item__label">نوبت موفق</span>
+            </div>
+        
+            <div class="hero__brief-info__item">
+              <span class="hero__brief-info__item__value">1,245+</span>
+              <br>
+              <span class="hero__brief-info__item__label">شهر و روستا</span>
+            </div>
+          </div>
+          
+          <!--==================== BANNER ====================-->
+          <div class="hero__banner grid">
+            <a href="#" class="hero__banner__item">
+              <div class="hero__banner__item__image">
+                <img src="src/assets/banner-img/appointment.jpg" alt="banner" loading="lazy">
+              </div>
+  
+              <h2 class="hero__banner__item__title">نوبت دهی مطب</h2>
+            </a>
+  
+            <a href="#" class="hero__banner__item">
+              <div class="hero__banner__item__image">
+                <img src="src/assets/banner-img/consultation.jpg" alt="banner" loading="lazy">
+              </div>
+  
+              <h2 class="hero__banner__item__title">مشاوره پزشکی آنلاین</h2>
+            </a>
+  
+            <a href="#" class="hero__banner__item hero__banner__item--horizontal flex-row-between">
+              <div class="hero__banner__item__image">
+                <img src="src/assets/banner-img/hospital-appointment.jpg" alt="banner" loading="lazy">
+              </div>
+  
+              <h2 class="hero__banner__item__title">نوبت درمانگاه و بیمارستان</h2>
+            </a>
+  
+            <a href="#" class="hero__banner__item hero__banner__item--horizontal flex-row-between">
+              <div class="hero__banner__item__image">
+                <img src="src/assets/banner-img/clinic.jpg" alt="banner" loading="lazy">
+              </div>
+  
+              <span class="hero__banner__item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"><path fill="#D92D20" d="M19.375 8.766 18.04 7.217c-.255-.294-.46-.843-.46-1.235V4.315a1.9 1.9 0 0 0-1.893-1.892h-1.666c-.383 0-.941-.206-1.235-.46L11.237.628c-.676-.578-1.784-.578-2.47 0l-1.54 1.343c-.293.245-.852.451-1.235.451H4.296a1.9 1.9 0 0 0-1.892 1.892v1.677c0 .382-.206.931-.45 1.225L.63 8.777c-.569.676-.569 1.774 0 2.45l1.323 1.559c.245.294.451.843.451 1.226v1.676a1.9 1.9 0 0 0 1.892 1.892h1.696c.383 0 .942.206 1.236.46l1.549 1.334c.676.579 1.784.579 2.47 0l1.55-1.333c.293-.255.842-.46 1.235-.46h1.666a1.9 1.9 0 0 0 1.892-1.893v-1.667c0-.382.206-.94.461-1.235l1.334-1.549c.568-.677.568-1.794-.01-2.47"></path><path fill="#fff" d="M6.775 11a.85.85 0 0 1-.585-.205q-.23-.21-.425-.655L5.04 8.49l.62-.335.685 1.62q.07.17.155.23a.54.54 0 0 0 .275.055h.065l.05.47-.05.47zm-1.58.03q-.42 0-.715-.14a3.4 3.4 0 0 1-.5-.285l.32-.655.015.005q.125.065.325.125t.46.06q.325 0 .515-.09.195-.095.25-.185l.005-.01.42.54-.005.015a1.7 1.7 0 0 1-.185.255q-.115.135-.35.25a1.2 1.2 0 0 1-.555.115m1.59-.97h.27q.465 0 .66-.075.2-.075.2-.21 0-.08-.1-.335-.096-.255-.176-.45l.635-.35q.1.21.2.565.105.35.105.63 0 .56-.35.865-.35.3-1.025.3h-.42zm1.394 1.805q-.159.16-.24.235l-.23.23-.235-.235-.23-.23q.16-.16.235-.24l.23-.23.235.235zm-.87 0q-.159.16-.24.235l-.23.23-.235-.235-.23-.23q.16-.16.235-.24l.23-.23.235.235zM11.682 11a.85.85 0 0 1-.585-.205q-.23-.21-.425-.655l-.725-1.65.62-.335.685 1.62q.07.17.155.23a.54.54 0 0 0 .275.055h.065l.05.47-.05.47zm-1.58.03q-.42 0-.715-.14a3.4 3.4 0 0 1-.5-.285l.32-.655.015.005q.125.065.325.125t.46.06q.325 0 .515-.09.195-.095.25-.185l.005-.01.42.54-.005.015a1.7 1.7 0 0 1-.185.255q-.115.135-.35.25a1.2 1.2 0 0 1-.555.115m1.59-.97h.315q.38 0 .705-.045.33-.045.69-.165.364-.12.79-.345l.015-.005q.45-.244.59-.285l.025.75a3 3 0 0 1-.485-.14 7 7 0 0 1-.605-.275 2 2 0 0 0-.39-.15 1.4 1.4 0 0 0-.355-.055.52.52 0 0 0-.305.09 1 1 0 0 0-.21.19l-.515-.385q.2-.4.465-.605a.93.93 0 0 1 .6-.2q.215.005.41.075.195.065.58.26l.005.005.07.035q.249.13.435.195.189.065.42.11l.03.85q-.1.03-.48.235l-.23.125q-.54.285-.91.425a3.5 3.5 0 0 1-.72.195 7 7 0 0 1-.875.055h-.065zm1.195 1.83.27-.27q.09-.085.265-.26l.265.265.265.265-.27.27q-.086.09-.26.265l-.27-.27z"></path></svg></span>
+  
+              <h2 class="hero__banner__item__title">خدمات دکترِتو کلینیک</h2>
+            </a>
+          </div>
+        </section>
+      </div>
+
     </main>
 
     <script type="module" src="app.js"></script>
