@@ -1,0 +1,268 @@
+.hero-bg {
+  background: var(--blue-700) url("src/assets/component-bg/bg-1.png");
+  padding: 1.5rem 0 4rem 0;
+}
+
+/**==================== HEADING ====================*/
+.hero__heading {
+  text-align: center;
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--white);
+  line-height: 1.8;
+}
+
+.hero__heading span {
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+/**==================== SEARCH BOX ====================*/
+.hero__form {
+  max-width: 38.75rem;
+  margin: var(--space-xl) auto;
+  position: relative;
+}
+
+.hero__form__input {
+  width: 100%;
+  padding: 1rem 9rem 1rem 0;
+  border-radius: var(--rounded-xs);
+  font-size: var(--text-xs);
+}
+
+.hero__form__input::placeholder {
+  color: var(--gray-600);
+}
+
+.hero__form__btn {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  background-color: var(--blue-300);
+  padding: var(--space-xs);
+  border-radius: 6px;
+  column-gap: 2px;
+}
+
+.hero__form__btn__text {
+  color: var(--blue-800);
+  font-size: var(--text-md);
+  font-weight: 500;
+}
+
+.hero__form__btn__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: var(--blue-800);
+}
+
+.hero__form__search-icon {
+  position: absolute;
+  top: 0.75rem;
+  right: 7.4rem;
+}
+
+.hero__form__search-icon svg {
+  width: clamp(1.25rem, 3vw, 1.5rem);
+  fill: var(--gray-600);
+}
+
+/**==================== BRIEF INFO ====================*/
+.hero__brief-info {
+  max-width: 34.5rem;
+  margin: var(--space-xl) auto;
+}
+
+.hero__brief-info__item {
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.hero__brief-info__item:not(:last-child) {
+  border-left: 1px dashed #b5c1d4;
+}
+
+.hero__brief-info__item__value {
+  color: var(--white);
+  font-size: clamp(var(--text-base), 4vw, var(--text-3xl));
+  font-weight: 700;
+}
+
+.hero__brief-info__item__label {
+  color: var(--blue-200);
+  font-size: clamp(var(--text-md), 4vw, var(--text-lg));
+}
+
+/**==================== BANNER -- VERTICAL BANNER ====================*/
+.hero__banner {
+  max-width: 1128px;
+  margin: 0 auto;
+  position: absolute;
+  left: var(--space-md);
+  right: var(--space-md);
+  grid-template-columns: repeat(2, minmax(8rem, 16.5rem));
+  gap: var(--space-md);
+}
+
+.hero__banner__item {
+  position: relative;
+  background-color: var(--white);
+  border-radius: var(--rounded-xs);
+  padding: 5px;
+  box-shadow: var(--box-shadow-3);
+  transition: all 0.3s;
+}
+
+.hero__banner__item__image {
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.hero__banner__item__title {
+  font-size: clamp(var(--text-sm), 2vw, var(--text-lg));
+  text-align: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  color: var(--dark-200);
+  transition: inherit;
+}
+
+.hero__banner__item__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hero__banner__item__icon svg {
+  width: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+/**==================== BANNER -- HORIZONTAL BANNER ====================*/
+.hero__banner__item--horizontal {
+  column-gap: clamp(2px, 2vw, var(--space-sm));
+  justify-content: flex-start;
+}
+
+.hero__banner__item--horizontal .hero__banner__item__image,
+.hero__banner__item--horizontal img {
+  min-width: 3.5rem;
+  max-width: 3.5rem;
+  height: 3.5rem;
+}
+
+.hero__banner__item--horizontal:last-child img {
+  object-fit: contain;
+  background-color: #ecfafe;
+}
+
+.hero__banner__item--horizontal .hero__banner__item__title {
+  margin: 0;
+  font-weight: 500;
+}
+
+/*!==================== HOVERS ====================*/
+.hero__form__search-icon:hover svg {
+  fill: var(--gray-800);
+}
+
+.hero__banner__item:hover {
+  box-shadow: var(--box-shadow-hover-1);
+}
+
+.hero__banner__item:hover .hero__banner__item__title {
+  color: var(--blue-700);
+}
+
+/**==================== MEDIA QUERYS ====================*/
+@media (min-width: 576px) {
+  .hero-bg {
+    padding-bottom: 10rem;
+  }
+
+  /**==================== HEADING ====================*/
+  .hero__heading,
+  .hero__heading span {
+    font-size: var(--text-3xl);
+  }
+
+  /**==================== SEARCH BOX ====================*/
+  .hero__form {
+    margin: 2.5rem auto 4rem auto;
+  }
+
+  /**==================== BANNER -- VERTICAL BANNER ====================*/
+  .hero__banner {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: var(--space-2xl);
+  }
+
+  /**==================== BANNER -- HORIZONTAL BANNER ====================*/
+  .hero__banner__item--horizontal {
+    display: block;
+  }
+
+  .hero__banner__item--horizontal .hero__banner__item__image,
+  .hero__banner__item--horizontal img {
+    min-width: 100%;
+    height: auto;
+  }
+
+  .hero__banner__item--horizontal .hero__banner__item__title {
+    margin-top: var(--space-sm);
+    margin-bottom: 4px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 768px) {
+  /**==================== SEARCH BOX ====================*/
+  .hero__form__input {
+    font-size: var(--text-md);
+    padding-right: 9.5rem;
+  }
+
+  .hero__form__btn {
+    padding: 10px;
+    top: 6px;
+  }
+
+  .hero__form__search-icon {
+    top: 14px;
+    right: 7.5rem;
+  }
+
+  /**==================== BANNER -- VERTICAL BANNER ====================*/
+  .hero__banner {
+    max-width: 720px;
+    column-gap: var(--space-lg);
+  }
+
+  .hero__banner__item {
+    padding: var(--space-sm);
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__banner {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /**==================== BANNER -- VERTICAL BANNER ====================*/
+  .hero__banner {
+    max-width: 1140px;
+  }
+
+  .hero__banner__item {
+    height: 13.75rem;
+  }
+
+  .hero__banner__item__title {
+    margin-top: var(--space-lg) !important;
+  }
+}
+
+@media (min-width: 1400px) {}
