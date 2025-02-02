@@ -36,14 +36,23 @@
 }
 
 .section-intro__title {
-  font-size: var(--text-2xl);
+  font-size: clamp(var(--text-base), 2.7vw, var(--text-2xl));
   font-weight: 700;
   color: var(--black-500);
 }
 
 .section-intro__view-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: var(--text-md);
-  color: var(--blue-300);
+  color: var(--blue-600);
+  fill: var(--blue-600);
+}
+
+.section-intro__view-more__chevron {
+  width: 1.125rem;
+  height: 1.125rem;
 }
 
 /**========== LOGO ==========*/
