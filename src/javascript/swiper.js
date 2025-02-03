@@ -1,6 +1,8 @@
 import Swiper from "swiper";
-import "swiper/css";
+import { Grid, Pagination, Navigation } from "swiper/modules";
 
-// config your swiper here and export it. for example: specialties , disease, user view, etc... sections
-export const specialties = new Swiper();
-export const disease = new Swiper();
+// css files
+import "swiper/css";
+import "swiper/css/grid";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
