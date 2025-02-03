@@ -1,0 +1,120 @@
+.specialties {
+  margin: 40px auto !important;
+  padding-left: 0 !important;
+  position: relative;
+}
+
+.specialties .section-intro {
+  padding-left: var(--space-md);
+}
+
+/**==================== SWIPER CONTAONER ====================*/
+.specialties__swiper {
+  padding-bottom: var(--space-xl) !important;
+  height: 16.875rem;
+  padding-left: var(--space-md) !important;
+}
+
+/**==================== SPECIALTIES CARD (SWIPER SLIDES) ====================*/
+.specialties__card {
+  width: 8.25rem !important;
+  padding: var(--space-xs) 0;
+  border: 1px solid var(--border-color-2);
+  border-radius: var(--rounded-xs);
+  background-color: var(--white);
+  transition: box-shadow 0.3s !important;
+}
+
+.specialties__card__image {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+.specialties__card__text {
+  text-align: center;
+  margin-top: var(--space-xs);
+  line-height: 2;
+}
+
+.specialties__card__text span {
+  display: block;
+}
+
+.specialties__card__text h2 {
+  color: var(--dark-200);
+  font-size: clamp(var(--text-sm), 2.2vw, var(--text-md));
+  font-weight: 700;
+}
+
+.specialties__card__text span {
+  color: var(--gray-900);
+  font-size: clamp(var(--text-sm), 2vw, var(--text-sm));
+}
+
+/*!==================== HOVERS ====================*/
+.specialties__card:hover {
+  box-shadow: var(--box-shadow-hover-1) !important;
+}
+
+.specialties__card:hover .specialties__card__text h2 {
+  color: var(--blue-700);
+}
+
+/**==================== MEDIA QUERYS ====================*/
+@media (min-width: 576px) {
+  /**==================== SWIPER CONTAONER ====================*/
+  .specialties__swiper {
+    padding-bottom: 2.5rem !important;
+    height: auto;
+  }
+
+  /**==================== SPECIALTIES CARD (SWIPER SLIDES) ====================*/
+  .specialties__card {
+    width: 10.5rem !important;
+    height: 11rem !important;
+    padding: var(--space-md) var(--space-xs);
+    border-radius: var(--rounded-sm);
+    box-shadow: var(--box-shadow-1);
+  }
+
+  .specialties__card__image {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .specialties__card__text {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .specialties {
+    margin: 3.75rem auto !important;
+    max-width: 720px !important;
+    padding-right: 0 !important;
+  }
+
+  .specialties__swiper {
+    padding-left: 0 !important;
+  }
+
+  .specialties .section-intro {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .specialties {
+    max-width: 960px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .specialties {
+    max-width: 1140px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+}
